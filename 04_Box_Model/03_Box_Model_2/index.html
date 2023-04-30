@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Rechnung</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a href="index.html" class="home"><img src="images/contasa_logo.png" alt="Contasa Corp. Logo"></a>
+  <hr>
+  
+  <h3>Lieferadresse:</h3>
+  <p>Hans Muster</p>
+  <p>Musterstrasse 42</p>
+  <p>8645 Jona</p>
+  <hr>
+
+  <div class="invoice-address-container">
+    <h3 class="invoice-address">Rechnungsadresse:</h3>
+    <p class="invoice-address-line">Privat</p>
+    <p class="invoice-address-line">z.Hd. <strong>Hans Muster</strong></p>
+    <p class="invoice-address-line">Musterstrasse 42</p>
+    <p class="invoice-address-line">8645 Jona</p>
+  </div>
+  <hr>
+
+  <h2 class="invoice-date">Rapperswil, 28. Juli 2021</h2>
+  <hr>
+
+  <h1>Rechnung 01-234567-89</h1>
+  <hr>
+
+  Gemäss Ihrer Bestellung liefern wir Ihnen wie folgt:
+  <table id="warentabelle" class="invoice order-item-table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Beschreibung</th>
+        <th scope="col" class="price">Preis [CHF]</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">1</td>
+        <td>Apple iPhone 12</td>
+        <td class="price">741.-</td>
+      </tr>
+      <tr>
+        <td scope="row">2</td>
+        <td>Apple MacSafe Battery</td>
+        <td class="price">105.-</td>
+      </tr>
+      <tr>
+        <td scope="row">3</td>
+        <td>Apple AirPods Pro</td>
+        <td class="price">209.-</td>
+      </tr>
+      <tr class="total">
+        <td scope="row" colspan="2">Subtotal</td>
+        <td class="price">1055.-</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+
+  <p class="footer">
+    Vielen Dank für Ihr Vertrauen.<br>
+    Freundliche Grüsse<br>
+    Contasa Corp.
+  </p>
+  <hr>
+  
+  <h2>Anhang</h2>
+  <ol>
+    <li>Garantieschein</li>
+    <li>Begleitschreiben</li>
+  </ol>
+
+  <p class="footer">
+    <a href="pages/rechnungen.html" target="_blank">Alle Bestellungen</a>
+  </p>
+</body>
+</html>
