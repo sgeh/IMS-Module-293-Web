@@ -1,0 +1,31 @@
+Hans Muster
+Musterstrasse 42
+8645 Jona
+---
+Rechnungsadresse:
+Privat
+z.Hd. Hans Muster
+Musterstrasse 42
+8645 Jona
+---
+Rapperswil, 28. Juli 2021
+---
+Rechnung 01-234567-89
+---
+Gemäss Ihrer Bestellung liefern wir Ihnen wie folgt:
+# Beschreibung Preis [CHF]
+--------------------------------------------
+1 Apple iPhone 12 741.-
+2 Apple MacSafe Battery 105.-
+3 Apple AirPods Pro 209.-
+============================================
+Subtotal 1055.-
+============================================
+---
+Vielen Dank für Ihr Vertrauen.
+Freundliche Grüsse
+Contasa Corp.
+---
+Anhang
+ •  Garantieschein
+ •  Begleitschreiben  
