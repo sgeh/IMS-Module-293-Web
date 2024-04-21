@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, h6 {
+    color: darkblue;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+h3 {
+    font-size: medium;
+}
+
+h3.invoice-address {
+    font-weight: normal;
+}
+
+.home > img {
+    border: 1px solid darkgray;
+}
+
+p.invoice-address-line {
+    color: darkgray;
+}
+
+.footer {
+    font-size: small;
+}
+
+.invoice {
+    color: green;
+    background-color: lightgray;
+    font-size: large;
+}
