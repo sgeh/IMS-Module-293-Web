@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(3, 112, 180);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3.invoice-address {
+    font-weight: normal;
+}
+
+a {
+    color: #6C8FBC;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a.current-calculation {
+    color: rgb(3, 112, 180);
+}
+
+.home > img, img.calculation-overview {
+    border: 1px solid darkgray;
+}
+
+p.invoice-address-line {
+    color: #777;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+.footer.calculation {
+    font-size: 10px;
+}
