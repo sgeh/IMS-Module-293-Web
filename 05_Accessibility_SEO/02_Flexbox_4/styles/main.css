@@ -14,7 +14,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     min-height: 100vh;
-
+    padding: 16px;
+    
     /** new styles, exercise 4 **/
     flex-direction: row;
     justify-content: center;
@@ -26,7 +27,6 @@ body > .content {
     flex-direction: column;
     width: 80%;
     min-width: 400px;
-    margin: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
