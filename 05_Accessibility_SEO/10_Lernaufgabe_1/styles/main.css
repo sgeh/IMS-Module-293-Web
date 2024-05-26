@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.content {
+    min-width: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(3, 112, 180);
+    font-weight: bold;
+}
+
+a:hover {
+    color:black;
+}
+
+
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-nav > nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.top-nav > nav {
+    flex-grow: 1;
+}
+
+.top-nav > nav > ul > li:hover > .sub-nav {
+    display: block;
+}
+
+.top-nav > nav > ul > li {
+    position: relative;
+}
+
+
+.sub-nav {
+    position: absolute;
+    left: -4px;
+    
+    list-style: none;
+    display: none;
+
+    min-width: 150px;
+    background-color: #DDD;
+}
+
+.sub-nav > li {
+    padding: 4px;
+}
+
+.sub-nav > li > a {
+    font-weight: normal;
+}
+
+
+/* new styles */
+.side-nav > ul {
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav > ul > li {
+    padding: 4px;
+}
+
+.side-nav > ul > li > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.side-nav > ul > li > a.side-nav-selected {
+    font-weight: bold;
+}
+
+.side-nav {
+    margin-top: 16px;
+    width: 250px;
+}
+
+main {
+    flex-grow: 1;
+    flex-direction: row;
+    display:flex;
+}
+
+.main-content {
+    flex-grow: 1;
+}
