@@ -6,10 +6,8 @@
     <title>Grid Applied</title>
 </head>
 <body class="grid">
-    <header>
-      <div>Logo</div>
-      Header
-    </header>
+    <div class="logo">Logo</div>
+    <header>Header</header>
     <nav>Navigation</nav>
     <main>Content</main>
 </body>
@@ -19,7 +17,7 @@
     margin: 0;
     border: 0;
 }
-  
+
 .grid {
   height: 100vh;
   display: grid;
@@ -27,25 +25,9 @@
   grid-template-rows: 150px 1fr;
 }
 
-.grid > header {
-  background-color: gray;
-  grid-column: 1 / 3;
-  grid-row: 1;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.grid > nav {
-  background-color: darkgray;
-  grid-row: 2;
-  grid-column: 1;
-}
-
-.grid > main {
-  background-color: lightgray;
-  grid-row: 2;
-  grid-column: 2;
-}
+.logo { background-color: gray; }
+.grid > header { background-color: gray; }
+.grid > nav { background-color: darkgray; }
+.grid > main { background-color: lightgray; }
 </style>
 </html>
