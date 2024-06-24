@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Contasa Web Shop - Aktuelle Rechnung</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../styles/main.css">
+  <link rel="stylesheet" href="../../styles/my-orders.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <div class="content">
+    <header class="top-nav-header">
+      <div class="logo">
+        <img src="../../images/contasa_logo_accounting.png" class="calculation-overview" alt="Contasa Accounting" usemap="#Accouting">
+        <map name="Accouting">
+          <area shape="circle" coords="70,70,55" href="/index.html" alt="Contasa Home" title="Home">
+          <area shape="rect" coords="112,112,352,252" href="2022/2022-11-01.html" alt="First Invoice" title="First Invoice">
+        </map>
+      </div>
+      <nav class="top-nav">
+        <ul>
+          <li>
+            <a href="#">Bürobedarf</a>
+            <ul class="top-sub-nav">
+              <li><a href="#">Arbeitsplatz</a></li>
+              <li><a href="#">Möbel</a></li>
+              <li><a href="#">Kleber</a></li>
+              <li><a href="#">Schneiden</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Netzwerk</a>
+            <ul class="top-sub-nav">
+              <li><a href="#">Router / Firewall</a></li>
+              <li><a href="#">Kabel</a></li>
+              <li><a href="#">NAS</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Mobile</a>
+            <ul class="top-sub-nav">
+              <li><a href="#">Notebook</a></li>
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Convertibles</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PC Komponenten</a>
+            <ul class="top-sub-nav">
+              <li><a href="#">Gehäuse</a></li>
+              <li><a href="#">Grafikkarte</a></li>
+              <li><a href="#">Mainbaord</a></li>
+              <li><a href="#">Prozessor</a></li>
+              <li><a href="#">RAM</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="top-side-nav">
+        <nav class="top-nav">
+          <ul>
+            <li>
+              <a href="#">Mein Profil</a>
+              <ul class="top-sub-nav">
+                <li><a href="#">Rechnungen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <nav class="side-nav">
+        <ul>
+          <li><a href="/">Gesamtsortiment</a></li>
+          <li><a href="./">Rechnungsübersicht</a></li>
+          <li><a href="#" class="side-nav-selected">&nbsp; Aktuelle Rechnung</a></li>
+        </ul>
+      </nav>
+
+      <section class="main-content">
+        <header>
+          <nav class="breadcrumb">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#" class="breadcrumb-selected">Mein Profil</a></li>
+            </ul>
+          </nav>
+
+          <h1>Aktuelle Rechnung</h1>
+        </header>
+  
+        <section class="letter-card">
+          <header>
+            <a href="index.html" class="home"><img src="../../images/contasa_logo.png" alt="Contasa Corp. Logo"></a>
+            
+            <h3>Lieferadresse:</h3>
+            <p>Hans Muster</p>
+            <p>Musterstrasse 42</p>
+            <p>8645 Jona</p>
+        
+            <div class="invoice-address-container">
+              <div>
+                <h3 class="invoice-address">Rechnungsadresse:</h3>
+                <p class="invoice-address-line">Privat</p>
+                <p class="invoice-address-line">z.Hd. <strong>Hans Muster</strong></p>
+                <p class="invoice-address-line">Musterstrasse 42</p>
+                <p class="invoice-address-line">8645 Jona</p>
+              </div>
+            </div>
+          </header>
+        
+          <section>
+            <header>
+              <h2 class="invoice-date">Rapperswil, 28. Juli 2021</h2>
+            </header>
+        
+            <h1>Rechnung 01-234567-89</h1>
+        
+            Gemäss Ihrer Bestellung liefern wir Ihnen wie folgt:
+            <table id="warentabelle" class="invoice order-item-table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Beschreibung</th>
+                  <th scope="col" class="price">Preis [CHF]</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">1</td>
+                  <td>Apple iPhone 12</td>
+                  <td class="price">741.-</td>
+                </tr>
+                <tr>
+                  <td scope="row">2</td>
+                  <td>Apple MacSafe Battery</td>
+                  <td class="price">105.-</td>
+                </tr>
+                <tr>
+                  <td scope="row">3</td>
+                  <td>Apple AirPods Pro</td>
+                  <td class="price">209.-</td>
+                </tr>
+                <tr class="total">
+                  <td scope="row" colspan="2">Subtotal</td>
+                  <td class="price">1055.-</td>
+                </tr>
+              </tbody>
+            </table>
+        
+            <footer>
+              Vielen Dank für Ihr Vertrauen.<br>
+              Freundliche Grüsse<br>
+              Contasa Corp.
+            </footer>
+          </section>
+          
+          <footer>
+            <header>
+              <h2>Anhang</h2>
+            </header>
+        
+            <ol>
+              <li>Garantieschein</li>
+              <li>Begleitschreiben</li>
+            </ol>
+          </footer>
+        </section>
+      </section>
+    </main>
+    
+    <footer class="copyright">
+      Copyright &copy; Contasa Corp.
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+p.invoice-address-line {
+    color: #777;
+}
+
+.invoice-address-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.invoice-overview {
+    list-style: none;
+    background-color: #F0F0F0;
+    box-shadow: 1px 1px 2px darkgray;
+    border-radius: 4px;
+    padding: 8px;
+    width: 380px;
+}
+
+.invoice {
+    background-color: #F0F0F0;
+    box-shadow: 1px 1px 2px darkgray;
+    border-radius: 4px;
+    width: 380px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.letter-card {
+    box-shadow: 1px 1px 2px darkgray;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    max-width: 600px;
+}
+
+
+.order-item-table {
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.order-item-table th {
+    text-align: left;
+}
+
+.order-item-table .price {
+    text-align: right;
+}
+
+.order-item-table .total {
+    font-weight: bold;
+}
+
+.order-item-table tbody tr:nth-child(odd) {
+    background-color: #deedff;
+}
+
+.order-item-table tbody td:first-child {
+    text-align: center;
+}
